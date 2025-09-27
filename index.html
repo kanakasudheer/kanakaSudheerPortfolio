@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makam Venkata Kanaka Sudheer - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 
+    PORTFOLIO README:
+    - Replace photo placeholder in hero section with your actual image
+    - Update project links with your actual GitHub repositories
+    - Modify skills percentages based on your expertise
+    - Add your actual certificates and education details
+    - Replace social media links with your profiles
+    - Customize colors in styles.css (CSS variables at top)
+    -->
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h2>KANAKA SUDHEER</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+            <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-image">
+                <img src="Sudheer.png" alt="Makam Venkata Kanaka Sudheer" class="profile-img">
+            </div>
+            <div class="hero-text">
+                <h1 class="hero-title">MAKAM VENKATA KANAKA SUDHEER</h1>
+                <p class="hero-subtitle">MACHINE LEARNING</p>
+                <div class="hero-contact">
+                    <p>📞 +91 6302030885</p>
+                    <p>✉️ kanakasudheermakam@gmail.com</p>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/kanakasudheer" target="_blank" rel="noopener noreferrer" class="social-link">GitHub</a>
+                    <a href="https://www.linkedin.com/in/kanaka-sudheer-52b6ba266/" target="_blank" rel="noopener noreferrer" class="social-link">LinkedIn</a>
+                    <a href="https://leetcode.com/u/Kanaka_Sudheer/" target="_blank" rel="noopener noreferrer" class="social-link">LeetCode</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>Passionate software programmer with expertise in AI and Computer Vision. I enjoy building innovative solutions that solve real-world problems through technology. My experience spans across machine learning, web development, and interactive applications.</p>
+                <p>Currently focused on developing AI-powered applications and exploring the intersection of technology and user experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-icon">🐍</div>
+                    <h3>Python</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">🤖</div>
+                    <h3>Machine Learning</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">👁️</div>
+                    <h3>Computer Vision</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">🌐</div>
+                    <h3>Web Development</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="75"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">⚛️</div>
+                    <h3>React</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="70"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">🗄️</div>
+                    <h3>Databases</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="65"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+        
+            <div class="projects-grid">
+                <div class="project-card" data-category="ai web">
+                    <h3>Job Match AI</h3>
+                    <p>AI-powered job matching system that analyzes resumes and job descriptions to find optimal matches using machine learning algorithms.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Machine Learning</span>
+                        <span class="tag">NLP</span>
+                    </div>
+                    <a href="https://github.com/kanakasudheer/Job-Match-AI" target="_blank" rel="noopener noreferrer" class="project-link">View Code</a>
+                </div>
+                <div class="project-card" data-category="cv ai">
+                    <h3>Face Count Detection</h3>
+                    <p>Computer vision application that accurately detects and counts faces in images and video streams using deep learning models.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">OpenCV</span>
+                        <span class="tag">Deep Learning</span>
+                    </div>
+                    <a href="https://github.com/kanakasudheer/Facecountdetection" target="_blank" rel="noopener noreferrer" class="project-link">View Code</a>
+                </div>
+                <div class="project-card" data-category="cv ai">
+                    <h3>Gesture Game Control</h3>
+                    <p>Interactive gaming system that uses hand gesture recognition to control games, providing an immersive user experience.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Computer Vision</span>
+                        <span class="tag">Gaming</span>
+                    </div>
+                    <a href="https://github.com/kanakasudheer/GestureRecognition-" target="_blank" rel="noopener noreferrer" class="project-link">View Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education section">
+        <div class="container">
+            <h2 class="section-title">Education & Certificates</h2>
+            <div class="education-content">
+                <div class="education-section">
+                    <h3 class="subsection-title">🎓 Education</h3>
+                    <div class="education-grid">
+                        <div class="education-item">
+                            <h4>Parul University</h4>
+                            <p>B.Tech in Computer Science and Engineering (AI)</p>
+                            <span class="details">2022 – 2026 | Vadodara, Gujarat</span>
+                            <span class="grade">CGPA: 7.0/10</span>
+                        </div>
+                        <div class="education-item">
+                            <h4>Sri Chaitanya Junior College</h4>
+                            <p>Intermediate</p>
+                            <span class="details">2020 – 2022</span>
+                            <span class="grade">Marks: 769/1000</span>
+                        </div>
+                        <div class="education-item">
+                            <h4>Sri Chaitanya Techno School</h4>
+                            <p>SSC (Class X)</p>
+                            <span class="details">2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="certificates-section">
+                    <h3 class="subsection-title">📜 Certifications</h3>
+                    <div class="certificates-grid">
+                        <div class="certificate-item">
+                            <h4>Introduction to Data Science</h4>
+                            <p>Cisco Networking Academy</p>
+                            <a href="https://drive.google.com/file/d/1w4jOu4rfl7nq4zTvi674d3VrZvkPGdR8/view" target="_blank" rel="noopener noreferrer" class="cert-link">View Certificate</a>
+                        </div>
+                        <div class="certificate-item">
+                            <h4>AI & ML Certificate</h4>
+                            <p>Elevate Labs</p>
+                            <a href="https://drive.google.com/file/d/1avgffjxYTAFFBcRa2W4QoY5xyij6ke30/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="cert-link">View Certificate</a>
+                        </div>
+                        <div class="certificate-item">
+                            <h4>Gen-AI Certificate</h4>
+                            <p>Hack2skill</p>
+                            <a href="https://drive.google.com/file/d/1s4jEXPFu0v4pxN_eBoZ7L_OaqamV9M4U/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="cert-link">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>📞 Phone</h3>
+                        <p>+91 6302030885</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>✉️ Email</h3>
+                        <p>kanakasudheermakam@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>🌐 Social</h3>
+                        <div class="social-links">
+                            <a href="https://github.com/kanakasudheer" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            <a href="https://www.linkedin.com/in/kanaka-sudheer-52b6ba266/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                            <a href="https://leetcode.com/u/Kanaka_Sudheer/" target="_blank" rel="noopener noreferrer">LeetCode</a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Makam Venkata Kanaka Sudheer. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
